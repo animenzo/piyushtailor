@@ -60,7 +60,7 @@ export function Intro() {
 
 
   return (
-    <div id="#home" className="w-full h-full xl:min-h-[60vh] xl:mt-20 min-h-[70vh] py-2 px-[8%] xl:px-[15%] grid xl:grid-cols-2 items-center gap-16 relative">
+    <div id="#home" className="w-full h-full xl:min-h-[60vh] xl:mt-20 mt-10 min-h-[70vh] py-2 px-[8%] xl:px-[15%] grid xl:grid-cols-2 items-center gap-16 relative">
       <div className="xl:max-w-[500px] w-full relative">
         <h1 className="xl:text-5xl text-4xl font-bold">Hi! I'm Piyush Tailor</h1>
         <div className="text-[1.1rem] xl:text-[1.6rem] font-semibold relative h-14 overflow-hidden mt-2">

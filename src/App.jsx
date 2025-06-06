@@ -10,25 +10,26 @@ import { BrowserRouter, Route, Router, Routes } from 'react-router-dom'
 import { AllProjects } from './pages/AllProjects'
 import { Education } from './components/Education'
 
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
-function Home()
-{
-return (
-    
+function Home() {
+  return (
+
     <div className='w-full font-["satoshi_variable"]  relative z-100 overflow-x-hidden'>
-      <Navbar/>
+      <Navbar />
       <section id='home'>
-        <Intro/>
+        <Intro />
       </section>
-     
+
       <section id='projects'>
         <Products />
       </section>
       <section id='skills'>
         <Skills />
       </section>
-      
-      <Marquees/>
+
+      <Marquees />
       <section id='education'>
         <Education />
       </section>
@@ -36,26 +37,26 @@ return (
         <Contact />
       </section>
       <Footer />
-      
+
     </div>
-     
-    
+
+
   )
 }
 const App = () => {
   return (
     <BrowserRouter>
-    
-      <Routes>
-  <Route path="/" element={<Home/>} />
 
-  <Route path="/all-projects" element={<AllProjects />} />
-    </Routes>
-    
+      <Routes>
+        <Route path="/" element={<Home />} />
+
+        <Route path="/all-projects" element={<AllProjects />} />
+      </Routes>
+      <ToastContainer position="top-right" />
     </BrowserRouter>
 
   )
-  
+
 }
 
 export default App

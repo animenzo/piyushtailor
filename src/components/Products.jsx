@@ -4,8 +4,12 @@ import { motion } from 'framer-motion';
 import moviefy from '../assets/moviefy.webm';
 import clg from '../assets/clg.webm';
 import bidkar from '../assets/bidkar.webm';
+import portfolio from '../assets/portfolio.webm';
+
+
 
 import Button from './Button';
+import { Link } from 'react-router-dom';
 
 const Products = () => {
   const [pos, setPos] = useState(0);
@@ -37,7 +41,8 @@ const Products = () => {
       title: "Personal Portfolio",
       description: "My personal portfolio",
       tech: ["React","Framer Motion","Tailwind"],
-      img: moviefy,
+      img: portfolio,
+      link: "https://piyushtailor.vercel.app/",
     },
   ];
 
@@ -185,7 +190,7 @@ const Products = () => {
         </div>
       )}
   <div className='  mt-10 items-center justify-center flex relative'>
-               <a href="" className='border-x-1 border-zinc-600 px-1 hover:text-blue-400'>See All Projects</a>
+               <Link to={"/all-projects"} className='border-x-1 border-zinc-600 px-1 hover:text-blue-400'>See All Projects</Link>
              </div>
     </div>
   );
