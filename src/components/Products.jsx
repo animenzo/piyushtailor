@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import moviefy from '../assets/moviefy.webm';
 import clg from '../assets/clg.webm';
 import bidkar from '../assets/bidkar.webm';
-import portfolio from '../assets/portfolio.webm';
+import portfolioVid from '../assets/portfolioVid.webm';
 
 
 
@@ -41,7 +41,7 @@ const Products = () => {
       title: "Personal Portfolio",
       description: "My personal portfolio",
       tech: ["React","Framer Motion","Tailwind"],
-      img: portfolio,
+      img: portfolioVid,
       link: "https://piyushtailor.vercel.app/",
     },
   ];
@@ -126,7 +126,7 @@ const Products = () => {
                 </motion.div>
                 <motion.div  transition={{ease:[0.76, 0, 0.24,1], duration: 0.5}} animate={{y: -pos+`rem`}}  className='w-full bg-zinc-700  h-full'>
                 <video autoPlay muted loop>
-                                <source src={moviefy} type="video/webm" />
+                                <source src={portfolioVid} type="video/webm" />
                                 Your browser does not support the video tag.
                             </video>
                 </motion.div>

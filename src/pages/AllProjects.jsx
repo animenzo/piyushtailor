@@ -8,7 +8,7 @@ export function AllProjects() {
 
     const projects = [
           {
-            imageSrc: "/assets/clgweb.png",
+            imageSrc: "/assets/portfolio.png",
              title: "Personal Portfolio",
             technologies: ["React", "CSS Modules","Framer Motion", "Tailwind"],
             description: "This portfolio website showcases personal projects, skills, and professional information with a modern and interactive user interface.",

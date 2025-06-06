@@ -3,9 +3,9 @@ import Button from './Button';
 
 const Product = ({ val, mover, count }) => {
   return (
-    <div 
-      onMouseEnter={() => mover(count)} 
-      className='w-full  py-10 xl:py-20 h-auto xl:h-[14rem] dark:text-white text-zinc-800'
+    <div
+      onMouseEnter={() => mover(count)}
+      className='w-full  py-10 xl:py-20 h-auto xl:h-[13rem] dark:text-white text-zinc-800'
     >
       <div className='max-w-screen-xl mx-auto flex flex-col xl:flex-row items-start xl:items-center justify-between gap-4'>
         <h1 className='text-3xl xl:text-4xl capitalize font-semibold'>{val.title}</h1>
@@ -16,23 +16,23 @@ const Product = ({ val, mover, count }) => {
             {val.description}
           </p>
           <div className="flex flex-wrap gap-2 mb-4">
-           { val.tech.map((tech,i) => (
-<span
-                       
-                        className="bg-blue-400 text-black text-xs px-3 py-1 rounded-full"
-                      >
-                        {tech}
-                      </span>
+            {val.tech.map((tech, i) => (
+              <span
+
+                className="bg-blue-400 text-black text-xs px-3 py-1 rounded-full"
+              >
+                {tech}
+              </span>
             ))}
           </div>
-            
-     <div className='items-center flex gap-5'>
-           <a href={val.link} target='_blank'><Button /></a>
-     </div>
+
+          <div className='items-center flex gap-5'>
+            <a href={val.link} target='_blank'><Button /></a>
+          </div>
         </div>
-        
+
       </div>
-    
+
     </div>
   );
 };

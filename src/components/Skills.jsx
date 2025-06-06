@@ -2,23 +2,23 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const technicalSkills = [
-  { name: 'HTML', level: 90 },
-  { name: 'CSS', level: 80 },
-  { name: 'React', level: 85 },
-  { name: 'Tailwind CSS', level: 80 },
-  { name: 'MongoDB', level: 70 },
-  { name: 'Node.js', level: 75 },
-  { name: 'Express.js', level: 70 },
-  { name: 'C', level: 85 },
-  { name: 'C++', level: 80 },
-  { name: 'GitHub', level: 85 },
-  { name: 'Postman', level: 80 },
+  { name: 'HTML', level: 80 },
+  { name: 'CSS', level: 70 },
+  { name: 'React', level: 65 },
+  { name: 'Tailwind CSS', level: 70 },
+  { name: 'MongoDB', level: 65 },
+  { name: 'Node.js', level: 60 },
+  { name: 'Express.js', level: 60 },
+  { name: 'C', level: 75 },
+  { name: 'C++', level: 75 },
+  { name: 'GitHub', level: 75 },
+  { name: 'Postman', level: 60 },
 ];
 
 const professionalSkills = [
-  { name: 'Team Work', level: 80 },
+  { name: 'Team Work', level: 70 },
   { name: 'Project Management', level: 70 },
-  { name: 'Problem Solving', level: 85 },
+  { name: 'Problem Solving', level: 75 },
   { name: 'Creativity', level: 75 },
 ];
 

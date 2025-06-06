@@ -25,7 +25,7 @@ export function Education(props) {
                             <p className='text-sm text-gray-400'>2022-2026:</p>
                             <p className='text-blue-400 font-medium'>IET, MLSU, Udaipur, Rajasthan</p>
                             
-                            <p className='text-sm mt-1 text-gray-300 ml-40'>B.Tech in Computer Science</p>
+                            <p className='text-sm mt-1 dark:text-gray-300 text-gray-600 ml-40'>B.Tech in Computer Science</p>
 
                         </motion.div>
                         <motion.div className='pl-6 relative'
@@ -41,7 +41,7 @@ export function Education(props) {
                             <p className='text-sm text-gray-400'>2022:</p>
                             <p className='text-blue-400 font-medium'>Swami Vivekanand Govt. Model School, Bhim , Rajsamand, Rajasthan</p>
                             
-                            <p className='text-sm mt-1 text-gray-300 ml-40'>12th PCM  <span className='xl:ml-15  text-green-400'>- 88.4%</span></p>
+                            <p className='text-sm mt-1 dark:text-gray-300 text-gray-600 ml-40'>12th PCM  <span className='xl:ml-15  text-green-400'>- 88.4%</span></p>
 
                         </motion.div>
                         
